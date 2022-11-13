@@ -21,11 +21,12 @@
 
 /*
 
-BROWSER SCROLLBAR KITS
+BROWSER SCROLLBAR KITS 
 
 */
 
 /* CHROME & SAFARI */
+
 
 html::-webkit-scrollbar {
   width: 8px; 
