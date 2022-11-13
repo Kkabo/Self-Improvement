@@ -2,7 +2,6 @@
 const targets = document.querySelectorAll("img");
 
 //FUNCTIONS
-//Navigation Bar & Hamburger
 function openMenu(){
   document.body.classList += " menu--open"
 }
