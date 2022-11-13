@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="description" content="Self-Growth">
+  <meta name="author" content="Hatem Soliman">
+  <meta http-equiv="refresh" content="30">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="x-icon" href="./Assets/peace_symbol_PNG79.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js"></script>
+  <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+  <title>Self-Improvement</title>
+</head>
+<body>
+  <section>
+    <div class="shadow">
+      <img id="hero__img" src="./Assets/HeroImage.png" alt="Hero Image">
+    </div>
+    <nav>
+      <div class="nav__container">
+        <ul class="nav__links">
+          <li class="nav__link nav__link--outer">
+            <a class="nav__link--anchor no-cursor" href="">
+              ABOUT
+            </a>
+          </li>
+          <li class="nav__link">
+            <a class="nav__link--anchor" href="#explore">
+              EXPLORE
+            </a>
+          </li>
+          <li class="nav__link">
+            <a class="nav__link--anchor" id="peace" href="">
+              <i class="fas fa-peace"></i>
+            </a>
+          </li>
+          <li class="nav__link">
+            <a class="nav__link--anchor" href="#journal">
+              JOURNAL
+            </a>
+          </li>
+          <li class="nav__link nav__link--outer">
+            <a class="nav__link--anchor no-cursor" href="">
+              <i class="fas fa-search"></i>&nbsp;
+              SEARCH
+            </a>
+          </li>
+        </ul>
+        <img id="nav__underbar" src="./Assets/Navigation Underbar.svg" alt="Nav Underbar">
+      </div>
+      <div class="nav__container--mobile">
+        <button class="btn__menu" onclick="openMenu()">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="menu__backdrop">
+          <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+            <i class="fas fa-times"></i>
+          </button>
+          <ul class="menu__links">
+            <li class="menu__list">
+              <a class="menu__link" onclick="closeMenu()">ABOUT</a>
+            </li>
+            <li class="menu__list">
+              <a href="#explore" class="menu__link" onclick="closeMenu()">EXPLORE</a>
+            </li>
+            <li class="menu__list">
+              <a href="#journal" class="menu__link" onclick="closeMenu()">JOURNAL</a>
+            </li>
+            <li class="menu__list">
+              <a class="menu__link" onclick="closeMenu()">SEARCH</a>
+            </li>
+          </ul>
+        </div>
+      </div> 
+    </nav>
+  </section>
+
+  <section id="hero">
+    <h1 class="hero__header">IMAGINE<br>BELIEVE<br>ACHIEVE</h1>
+  </section>
+
+  <section id="intro">
+    <div class="container">
+      <div class="row">
+        <h2 class="title">Embrace the Journey</h2>
+        <p class="para">
+          You can't go back and change the beginning,<br>
+          but you can start where you are and change the ending
+        </p>
+        <span class="sub__text">C.S. LEWIS</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="wave">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+    </svg>
+</div>
+</div>
+  <section id="explore">
+    <div class="container">
+      <div class="row">
+        <h2 class="title">Discover the Inner You</h2>
+        <p class="para">
+          There is always a better version of you waiting to be discovered. Re-awaken your senses as you discover the world's innovators, their history and mysteries, and in doing so, find clarity in your own with books written by the most influential people of all time
+        </p>
+        <ul class="book__list">
+          <li class="book">
+            <figure class="book__wrapper">
+              <img class="book__img" src="./Assets/Book 1.png" alt="Be Obsessed or Be Average">
+            </figure>
+            <!-- <p class="book__description">
+              This book is about using obsessions to be successful. Obsessions can be valuable when they are controlled and focused. A positive obsession can lead to maximizing potential, and put an end to the “epidemic of average.” Denying obsessions will result in ignoring dreams, and tolerating mediocrity.
+            </p> -->
+          </li>          
+          <li class="book">
+            <figure class="book__wrapper">
+              <img class="book__img" src="./Assets/Book 2.png" alt="Can't Hurt Me">
+            </figure>
+            <!-- <p class="book__description">
+              David Goggins shares how he transcended poverty and abuse to become one of the world's top endurance athletes. His story reveals how mastering your mind, hard work, and becoming friends with pain can help you achieve the unimaginable.
+            </p> -->
+          </li>          
+          <li class="book">
+            <figure class="book__wrapper">
+              <img class="book__img" src="./Assets/Book 3.png" alt="Steve Jobs">
+            </figure>
+            <!-- <p class="book__description">
+              Based on more than forty interviews with Jobs conducted over two years—in addition to interviews with more than one hundred family members, friends, adversaries, competitors, and colleagues—Isaacson was given "unprecedented" access to Jobs's life. Jobs is said to have encouraged the people interviewed to speak honestly. Although Jobs cooperated with the book, he asked for no control over its content other than the book's cover, and waived the right to read it before it was published. Describing his writing, Issacson commented that he had striven to take a balanced view of his subject that did not sugarcoat Jobs's flaws. -->
+            </p>
+          </li>          
+        </ul>
+        <span class="sub__text">
+          <a href="" class="no-cursor">SEE MORE</a>
+        </span>
+        <ul class="qoutes__wrapper">
+          <li class="qoute__wrapper">
+            <div class="person">
+              <img src="./Assets/First Influencer.png" alt="Michael B Jordan" class="person__img">
+              <span class="person__name">Michael B Jordan</span>
+            </div>
+            <p class="qoute">
+              I don't care who is doing better than me. I am doing better than I was last year. 
+              ITS ME VS ME.
+            </p>
+          </li>
+          <li class="qoute__wrapper">
+            <div class="person">
+              <img src="./Assets/Kobe-Bryant 1.png" alt="Kobe Bryant" class="person__img">
+              <span class="person__name">Kobe Bryant</span>
+            </div>
+            <p class="qoute">
+              It's the one thing you can control.
+              You are responsible for how people remember you -or don't.
+              SO DON'T TAKE IT LIGHTLY.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#36002e" fill-opacity="1" d="M0,128L40,154.7C80,181,160,235,240,234.7C320,235,400,181,480,165.3C560,149,640,171,720,202.7C800,235,880,277,960,272C1040,267,1120,213,1200,170.7C1280,128,1360,96,1400,80L1440,64L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+  
+  <section id="journal">
+    <div class="container">
+      <div class="row">
+        <h2 class="title">The Journal</h2>
+        <p class="para">
+          Journaling is like whispering to one's self and listening at the same time. Writing in a journal reminds you of your goals and of your learning in life. It offers a place where you can hold a deliberate, thoughtful conversation with yourself.
+        </p>
+        <ul class="journal__options">
+          <li class="journal__option">
+            <div class="journal__option--content">
+              <h2 class="journal__option--title">Journal your day</h2>
+              <p class="journal__option--para">
+                Keeping a journal of what's going on in your life is a good way to help you distill whats important and what's not.
+              </p>
+              <a class="journal__option--btn no-cursor" href="">HIT THE PAGES</a>
+            </div>
+          </li>
+          <li class="journal__option journal__option-two">
+            <div class="journal__option--content">
+              <h2 class="journal__option--title">Exchange Talks</h2>
+              <p class="journal__option--para">
+                Participating in a community bonded by attitudes, values, and goals is an essential ingredient to enjoying a fulfilling life.
+              </p>
+              <a class="journal__option--btn no-cursor" href="">JOIN THE COMMUNITY</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <img id="footer__img" src="./Assets/FooterImage.png" alt="Your Own Path">
+    <p class="footer__qoute">Have the courage to follow<br>your heart and intuition.<br>They somehow know what<br>you truly want to become.</p>
+    <div class="footer__content">
+      <span class="copyright">© 2022 All Rights Reserved.&nbsp;&nbsp;</span>
+      <span class="footer__content--separator">&nbsp;|&nbsp;</span>
+      <ul class="footer__links">&nbsp;&nbsp;
+        <li class="footer__link footer__link--outer">
+          <a class="footer__link--anchor no-cursor" href="">
+            ABOUT
+          </a>
+        </li>
+        <li class="footer__link">
+          <a class="footer__link--anchor" href="#explore">
+            EXPLORE
+          </a>
+        </li>
+        <li class="footer__link">
+          <a class="footer__link--anchor" href="#journal">
+            JOURNAL
+          </a>
+        </li>
+        <li class="footer__link footer__link--outer">
+          <a class="footer__link--anchor no-cursor" href="">
+            <i class="fas fa-search"></i>&nbsp;
+            SEARCH
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
